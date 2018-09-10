@@ -88,6 +88,7 @@ $grey: #383838;
       display: flex;
       flex-direction: column;
       margin-top: 35px;
+      width: 100%;
       .text-contact{
         font-size: 35px;
         text-transform: uppercase;
@@ -96,16 +97,13 @@ $grey: #383838;
         font-weight: 500;
         letter-spacing: -1px;
       }
-      .two-boxes{
-      display: flex;
-      flex-direction: column;
+
       .box{
         display: flex;
         flex-direction: row;
-        align-items: center;
         position: relative;
-        margin: 10px;
-        width: 400px;
+        margin: 10px 10px 10px 0px;
+        width: 350px;
         .icon-box{
           width: 50px;
           height: 40px;
@@ -134,7 +132,6 @@ $grey: #383838;
          }
       }
     }
-  }
 
     .hobbies-all{
       display: flex;
@@ -556,9 +553,9 @@ $grey: #383838;
           }
         }
       }
-
+/*
  .cv{
       display: none;
     }
-
+*/
     @import "queries.scss";
