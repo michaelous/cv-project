@@ -13,7 +13,7 @@ $grey: #383838;
   width: 1000px;
   height: auto;
   background: white;
-  display: flex;
+  display: none;
   flex-direction: row;
   margin: 30px auto;
   -webkit-box-shadow: 10px 15px 20px 6px rgba(0,0,0,0.44);
@@ -554,7 +554,4 @@ $grey: #383838;
         }
       }
 
- .cv{
-      display: none;
-    }
     @import "queries.scss";
