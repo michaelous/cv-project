@@ -14,7 +14,6 @@ function secondhide(){
 function firstquestion(answer){
   if(answer == "Warszawa"){
     ++correct; 
-    console.log(correct);
   }
    hide();
 }
@@ -22,7 +21,6 @@ function firstquestion(answer){
 function secondquestion(answer){
   if(answer == "Berlin"){
     ++correct; 
-    console.log(correct);
   }
    secondhide();
 }
@@ -30,9 +28,7 @@ function secondquestion(answer){
 function thirdquestion(answer){
   if(answer == "Sztokholm"){
     ++correct; 
-     console.log(correct);
     if(correct == 3){
-      console.log('dziala!');
       document.getElementById('survey').style.display = "none";
       document.getElementById('cv').style.display = "flex";
     }
