@@ -57,9 +57,9 @@ $grey: #383838;
           transition: all 1s;
             &:hover{
               filter: grayscale(0%) blur(0px);
+              }
             }
           }
-        }
       .name-container{
         .name{
          font-size: 80px;
@@ -67,9 +67,9 @@ $grey: #383838;
          text-align: center;
          letter-spacing: -2px;
          line-height: 70px;
+          }
         }
       }
-    }
     .job-container{
        background: $grey;
        width: 400px;
@@ -81,8 +81,8 @@ $grey: #383838;
         color: $yellow;
         font-style: italic;
         text-transform: uppercase;
+        }
       }
-    }
 
     .author-contact{
       display: flex;
@@ -96,7 +96,7 @@ $grey: #383838;
         margin-bottom: 20px;
         font-weight: 500;
         letter-spacing: -1px;
-      }
+        }
 
       .box{
         display: flex;
@@ -117,8 +117,8 @@ $grey: #383838;
             font-size: 25px;
             font-weight: bold;
             color: $yellow;
+            }
           }
-        }
         .info{
           margin: 10px;
           font-size: 16px;
@@ -128,10 +128,10 @@ $grey: #383838;
               text-decoration: none;
               font-size: 16px;
               color: black;
-            }
-         }
+              }
+           }
+        }
       }
-    }
 
     .hobbies-all{
       display: flex;
@@ -144,7 +144,7 @@ $grey: #383838;
         margin-bottom: 15px;
         font-weight: 500;
         letter-spacing: -1px;
-      }
+        }
 
       .hobbies-container{
         display: flex;
@@ -155,8 +155,8 @@ $grey: #383838;
         .two-hobbies{
           display: flex;
           flex-direction: row;
+          }
         }
-      }
 
       .hobby{
         display: flex;
@@ -179,22 +179,22 @@ $grey: #383838;
               &:hover{
                   color: yellow;
               }
-          }
+            }
 
           .fa-music{
             right: 12px;
-          }
+            }
           .fa-pencil-alt{
             right: 10px;
+            }
           }
-        }
         .hobby-text{
           font-weight: bold;
           font-size: 18px;
           margin-left: 15px;
+          }
         }
       }
-    }
 
     .socials{
       display: flex;
@@ -212,9 +212,9 @@ $grey: #383838;
           &:hover{
             color: blue;
             cursor: pointer;
+            }
           }
         }
-      }
       .twitter{
         &:hover{
           color: #0084b4;
@@ -255,15 +255,16 @@ $grey: #383838;
               color: $yellow;
             }
           }
-      .profile__title-container{
-        width: 75%;
+        .profile__title-container{
+          width: 75%;
           .profile-title{
             margin-left: 20px;
             font-size: 35px;
             text-transform: uppercase;
+            font-weight: 300;
+            }
           }
         }
-      }
 
       .profile__text-container{
         display: flex;
@@ -277,8 +278,8 @@ $grey: #383838;
             text-align: justify;
             padding-right: 20px;
           }
+        }
       }
-    }
 
     .education-container{
       display: flex;
@@ -313,6 +314,7 @@ $grey: #383838;
             margin-left: 20px;
             font-size: 35px;
             text-transform: uppercase;
+            font-weight: 300;
             }
           }
         }
@@ -432,12 +434,13 @@ $grey: #383838;
               color: $yellow;
               }
             }
-      .experience__title-container{
-      width: 75%;
+          .experience__title-container{
+          width: 75%;
           .experience-title{
             margin-left: 20px;
             font-size: 35px;
             text-transform: uppercase;
+            font-weight: 300;
             }
           }
         }
@@ -545,6 +548,7 @@ $grey: #383838;
               margin-left: 20px;
               font-size: 35px;
               text-transform: uppercase;
+              font-weight: 300;
               }
             }
           }

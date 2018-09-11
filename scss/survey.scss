@@ -20,15 +20,15 @@
           font-size: 30px;
           font-weight: bold;
           margin-bottom: 20px;
-        }
+          }
         .counter{
           position: absolute;
           bottom: 10px;
           right: 80px;
           font-size: 18px;
           font-weight: bold;
+          }
         }
-      }
       .second,.third{
         display: none;
       }
@@ -50,14 +50,14 @@
          border: 2px solid green;
          cursor: pointer;
         }
-    }
+      }
 
     .question-counter{
       position: absolute;
       bottom: 0px;
       right: 30px;
 
-        .question{
+      .question{
       font-weight: bold;
       font-size: 18px;
       }
